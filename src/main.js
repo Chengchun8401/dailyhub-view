@@ -4,6 +4,7 @@ import router from './router'
 import ElementUI from 'element-ui';
 import resetMessage from "@/api/resetMessage";
 import 'element-ui/lib/theme-chalk/index.css';
+import 'font-awesome/css/font-awesome.css';
 // 计算响应式
 import 'lib-flexible-computer'
 
@@ -15,7 +16,11 @@ import {putRequest} from "@/api";
 import {deleteRequest} from "@/api";
 
 Vue.config.productionTip = false
-Vue.use(ElementUI);
+Vue.use(ElementUI,{
+  ElTable: {
+    resizable: false // 禁止表格的列宽改变
+  }
+});
 Vue.prototype.$message = resetMessage;
 
 // 插件形式使用请求

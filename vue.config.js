@@ -8,7 +8,7 @@ module.exports={
                 ws: false,
                 secure: false,
                 // 目标地址
-                target: 'http://localhost:8898',
+                target: 'http://lizp.vip:8898',
                 // 发送请求头host 会被设置为target
                 changeOrigin: true,
                 // 不重写请求地址

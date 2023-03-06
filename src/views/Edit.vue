@@ -4,7 +4,7 @@
         <div class="box-card">
 
             <div class="tips">
-                <i style="">请把此链接: <a :href="js" class="alert-link">立即收藏</a> 固定到浏览器的书签栏</i>
+                <i>请把此链接: <a :href="js" class="alert-link">立即收藏</a> 固定到浏览器的书签栏</i>
             </div>
 
             <div class="data">

@@ -89,7 +89,7 @@ export default {
 </script>
 
 
-<style scope>
+<style>
 
 /*整体页面布局*/
 .login-view {

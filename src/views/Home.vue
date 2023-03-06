@@ -330,20 +330,13 @@ export default {
 #site {
     /* justify-content: center 配合 display: flex，让内部容器居中 */
     justify-content: center;
-
     display: flex;
-
     position: relative;
-
     /* 设置背景图片 */
     height: 100%;
-
     width: 100%;
-
     background-image: url('../assets/back.png');
-
     background-repeat: no-repeat;
-
     background-size: 100% 100%;
 
 }
@@ -358,15 +351,10 @@ export default {
 /*主体卡片容器*/
 .main-container {
     width: 60%;
-
     margin-top: 80px;
-
     height: 760px;
-
     box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
-
     border-radius: 4px;
-
     position: relative;
 
 }
@@ -374,22 +362,16 @@ export default {
 /*搜索栏*/
 .header {
     height: 80px;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
 
 }
 
 .home-search {
     width: 25%!important;
-
     margin-top: 10px;
-
     margin-right: 10px;
-
     margin-left: 8%!important;
 }
 
@@ -400,25 +382,18 @@ export default {
 /*书签容器父组件*/
 .body {
     display: flex;
-
     justify-content: center;
 }
 
 /*书签容器*/
 .collections {
-
     height: calc(100% - 80px);
-
     display: flex;
-
     width: 80%;
-
     /*控制容器在主轴上的对齐方式（水平向右）*/
     justify-content: flex-start;
-
     /*控制容器在交叉轴上的对齐方式（垂直向下）*/
     align-content: flex-start;
-
     /*flex-direction（控制排列方式） + flex-wrap（控制换行方式）*/
     flex-flow: row wrap;
 
@@ -427,39 +402,27 @@ export default {
 /*底部容器*/
 .footer {
     margin-top: 20px;
-
     height: 55px;
-
     width: 80%;
-
     margin-left: 10%;
-
     display: flex;
-
     justify-content: center;
 }
 
 /*书签卡片*/
 .my-cards {
     margin: 25px 25px 20px 25px;
-
     width: 250px;
-
     height: 100px;
-
     cursor: pointer;
 }
 
 /*卡片内容*/
 .card-content {
     display: flex;
-
     flex-direction: row;
-
     justify-content: flex-start;
-
     flex-wrap: wrap;
-
     position: relative;
 }
 
@@ -474,27 +437,20 @@ export default {
 
 .description-font {
     font-size: 12px;
-
     user-select: none;
-
     /*强制单行显示*/
     white-space:nowrap;
-
     /*/超出部分省略号表示/*/
     text-overflow:ellipsis;
-
     /*超出部分隐藏*/
     overflow:hidden;
-
     /*设置显示的最大宽度*/
     width: 80%;
-
     display:block;
 }
 
 .card-description {
     width: 100%;
-
     margin-top: 10%
 }
 
@@ -502,13 +458,9 @@ export default {
 .operation_button {
     /*强制单行显示*/
     white-space:nowrap;
-
     width: 20%;
-
     top: 0;
-
     right: 0;
-
     position: absolute;
 }
 
@@ -529,11 +481,8 @@ export default {
 /*登录对话框*/
 .login-dialog {
     display: flex;
-
     justify-content: flex-start;
-
     align-content: center;
-
     margin-left: 8%
 }
 
